@@ -1,0 +1,12 @@
+.env
+.venv
+.DS_Store
+__pycache__/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+data/raw/
+logs
