@@ -1,0 +1,208 @@
+models:
+
+  - name: int_customers
+    description: One row per customer
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          
+      - name: customer_unique_id
+        tests:
+          - not_null
+
+
+  - name: int_order_items
+    description: One row per order_id and order_item_id
+    tests:
+     - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - order_id
+            - order_item_id
+
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('int_orders')
+              field: order_id
+
+      - name: order_item_id
+        tests:
+          - not_null
+
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('int_products')
+              field: product_id
+
+      - name: seller_id
+        tests:
+          - not_null 
+          - relationships:
+              to: ref('int_sellers')
+              field: seller_id
+
+      - name: price
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: freight_value
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: shipping_limit_date
+        tests:
+          - not_null
+    
+  - name: int_orders
+    description: One row per order_id
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('int_customers')
+              field: customer_id
+      
+      - name: order_status
+        tests:
+          - not_null
+
+      - name: delivery_days
+        description: Number of days between order purchase and customer delivery date.
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: is_late_delivery
+        description: Indicates whether the order was delivered after the estimated delivery date.
+    
+  - name: int_products
+    description: One row per product
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+      - name: product_category
+        description: Translated product category name
+        tests:
+          - not_null
+
+      - name: product_weight_g
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: product_length_cm
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: product_height_cm
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: product_width_cm
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: product_photos_qty
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+  
+  - name: int_sellers
+    description: One row per seller
+    columns:
+      - name: seller_id
+        tests:
+          - not_null
+          - unique
+      - name: seller_zip_code_prefix
+        tests:
+          - not_null
+      - name: seller_state
+        tests:
+          - not_null
+  
+  - name: int_geolocation
+    description: One row per geolocation record
+    columns:
+      - name: geolocation_zip_code_prefix
+        tests:
+          - not_null
+
+
+  - name: int_payments
+    description: One Row per order_id
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('int_orders')
+              field: order_id
+
+      - name: total_payment_value
+        description: Total payment amount per order_id
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: payment_installments
+        description: Maximum number of installments used for the order.
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: payment_count
+        description: Number of payment records associated with the order.
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 1"
+
+  - name: int_reviews
+    description: One row per order review record
+    columns:
+      - name: review_id
+        description: Unique identifier for a review.
+        tests:
+          - not_null
+
+      - name: order_id
+        description: Identifier of the order associated with the review.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('int_orders')
+              field: order_id
+
+      - name: review_score
+        description: Customer rating on a scale of 1 to 5.
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5]
+
+      

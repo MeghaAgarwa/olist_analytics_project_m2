@@ -1,0 +1,80 @@
+models:
+
+  - name: fct_sales
+    description: One row per order_id and order_item_id.
+
+    columns:
+      - name: sales_sk
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_unique_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_unique_id
+
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_products')
+              field: product_id
+
+      - name: seller_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_sellers')
+              field: seller_id
+
+      - name: order_date
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+      
+      - name: review_sentiment
+        description: Categorization of review score as Positive, Neutral, or Negative.
+        tests:
+          - accepted_values:
+              values: ['Positive', 'Neutral', 'Negative']
+
+  - name: dim_customers
+    description: One row per customer.
+
+    columns:
+      - name: customer_unique_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    description: One row per product.
+
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_sellers
+    description: One row per seller.
+
+    columns:
+      - name: seller_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_date
+    description: One row per calendar date.
+
+    columns:
+      - name: date_key
+        tests:
+          - unique
+          - not_null

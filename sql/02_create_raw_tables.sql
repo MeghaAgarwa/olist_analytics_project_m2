@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS raw.sellers (
 CREATE TABLE IF NOT EXISTS raw.products (
     product_id TEXT,
     product_category_name TEXT,
-    product_name_lenght INTEGER,
-    product_description_lenght INTEGER,
+    product_name_length INTEGER,
+    product_description_length INTEGER,
     product_photos_qty INTEGER,
     product_weight_g INTEGER,
     product_length_cm INTEGER,
