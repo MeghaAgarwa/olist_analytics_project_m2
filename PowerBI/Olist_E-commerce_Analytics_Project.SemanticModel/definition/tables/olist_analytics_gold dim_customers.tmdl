@@ -1,0 +1,56 @@
+table 'olist_analytics_gold dim_customers'
+	lineageTag: 52f7b26f-c544-40d1-bac7-f5d3cee36258
+
+	column 'Customer UID'
+		dataType: string
+		lineageTag: 94748897-c6cb-418f-afc1-99d4870eb856
+		summarizeBy: none
+		sourceColumn: Customer UID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer City'
+		dataType: string
+		lineageTag: 3aa96123-bcab-4526-9952-b4a5b9fbe33a
+		summarizeBy: none
+		sourceColumn: Customer City
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer State'
+		dataType: string
+		lineageTag: 0431aaa7-e580-4e4b-8b8e-736294eaf593
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: Customer State
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country = "Brazil"
+		lineageTag: 7bf1b3dc-8a07-41db-9873-2846f148390d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'State Country' =
+			
+			[Customer State] & ", Brazil"
+		lineageTag: 330a3105-4883-42ba-9571-2130cb2d4be8
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'olist_analytics_gold dim_customers' = m
+		mode: import
+		source =
+				let
+				  Source = PostgreSQL.Database("localhost:5432", "olist_analytics"),
+				  #"Navigation 1" = Source{[Schema = "olist_analytics_gold", Item = "dim_customers"]}[Data],
+				    #"Renamed Columns" = Table.RenameColumns(#"Navigation 1",{{"customer_city", "Customer City"}, {"customer_state", "Customer State"}, {"customer_unique_id", "Customer UID"}})
+				in
+				  #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

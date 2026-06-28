@@ -1,0 +1,69 @@
+table 'olist_analytics_gold dim_products'
+	lineageTag: 4043ac1a-acd3-46d3-9dc8-2d7d286eaf87
+
+	column 'Product ID'
+		dataType: string
+		lineageTag: 38322321-284b-4ec8-a607-9d73799e68c0
+		summarizeBy: none
+		sourceColumn: Product ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Category'
+		dataType: string
+		lineageTag: 2d8eac9c-cbeb-403c-b935-bbf0d8f8f087
+		summarizeBy: none
+		sourceColumn: Product Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Weight (g)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9a886425-3970-4578-a004-39251b293880
+		summarizeBy: none
+		sourceColumn: Product Weight (g)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product length (cm)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 123e3cc0-ba1e-481a-ac73-29cef00c9a7e
+		summarizeBy: none
+		sourceColumn: Product length (cm)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Height (cm)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 56d6d84f-b2cb-43a5-a653-2b9ea3de1772
+		summarizeBy: none
+		sourceColumn: Product Height (cm)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Width (cm)'
+		dataType: int64
+		formatString: 0
+		lineageTag: c0b15ffc-2f59-4f83-a58a-397634629105
+		summarizeBy: none
+		sourceColumn: Product Width (cm)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'olist_analytics_gold dim_products' = m
+		mode: import
+		source =
+				let
+				  Source = PostgreSQL.Database("localhost:5432", "olist_analytics"),
+				  #"Navigation 1" = Source{[Schema = "olist_analytics_gold", Item = "dim_products"]}[Data],
+				    #"Renamed Columns" = Table.RenameColumns(#"Navigation 1",{{"product_category", "Product Category"}, {"product_height_cm", "Product Height (cm)"}, {"product_id", "Product ID"}, {"product_length_cm", "Product length (cm)"}, {"product_weight_g", "Product Weight (g)"}, {"product_width_cm", "Product Width (cm)"}})
+				in
+				  #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

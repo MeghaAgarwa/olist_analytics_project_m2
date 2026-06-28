@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 180.50031286891544,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 767.60196858845461,
+            "y": 11.628621241461474
+          },
+          "nodeIndex": "olist_analytics_gold dim_date",
+          "nodeLineageTag": "3b53048e-395d-41e5-ae8d-95040ff1728c",
+          "size": {
+            "height": 355,
+            "width": 266
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "olist_analytics_gold dim_products",
+          "nodeLineageTag": "4043ac1a-acd3-46d3-9dc8-2d7d286eaf87",
+          "size": {
+            "height": 227,
+            "width": 284
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 624.60196858845461,
+            "y": 474.45154310187104
+          },
+          "nodeIndex": "olist_analytics_gold dim_sellers",
+          "nodeLineageTag": "e2e74c7c-c372-4e4b-b148-89bfbaeb799b",
+          "size": {
+            "height": 244,
+            "width": 272.99999999999989
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 350.24195420630139,
+            "y": 35.181236229386343
+          },
+          "nodeIndex": "olist_analytics_gold fct_sales",
+          "nodeLineageTag": "8bd686eb-beae-4626-9bae-d7f8ab832210",
+          "size": {
+            "height": 550,
+            "width": 283
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 946.60196858845461,
+            "y": 386.22577155093552
+          },
+          "nodeIndex": "Measures Table",
+          "nodeLineageTag": "e1eb5440-608d-4b2f-b583-2d4f4399697e",
+          "size": {
+            "height": 313,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 425.22577155093541
+          },
+          "nodeIndex": "olist_analytics_gold dim_customers",
+          "nodeLineageTag": "52f7b26f-c544-40d1-bac7-f5d3cee36258",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 75.981524249422634,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

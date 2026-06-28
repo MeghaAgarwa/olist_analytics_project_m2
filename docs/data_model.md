@@ -60,19 +60,7 @@ dim_customers -- fact_orders  -- dim_products
 | `delivery_days`        | Number of days between purchase and delivery                |
 | `is_late_delivery`     | Indicates whether delivery exceeded the estimated date      |
 
-### Supported Metrics
 
-* Total Revenue
-* Total Orders
-* Average Order Value
-* Average Review Score
-* Delivery Time
-* Late Delivery Rate
-* Revenue by Category
-* Revenue by Seller
-* Payment Installment Analysis
-* Freight Cost
-* Repeat Customer Rate
 
 ---
 

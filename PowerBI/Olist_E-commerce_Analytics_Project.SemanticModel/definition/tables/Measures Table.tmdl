@@ -1,0 +1,147 @@
+table 'Measures Table'
+	lineageTag: e1eb5440-608d-4b2f-b583-2d4f4399697e
+
+	measure 'Total Revenue' = SUM('olist_analytics_gold fct_sales'[Gross Revenue])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		displayFolder: Revenue
+		lineageTag: aa23991e-7771-4e5b-a22d-d010d7d2b53c
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Total Orders' = DISTINCTCOUNT('olist_analytics_gold fct_sales'[Order ID])
+		formatString: 0
+		displayFolder: Orders
+		lineageTag: be46e7e6-dbbd-48b2-86f7-308481ce9332
+
+	measure 'Average Order Value' = DIVIDE([Total Revenue],[Total Orders])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		displayFolder: Revenue
+		lineageTag: 314c3ff5-36dc-4ffd-bb6c-60b5b562cdf5
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Average Delivery Days' = AVERAGE('olist_analytics_gold fct_sales'[Delivery Days])
+		displayFolder: Delivery
+		lineageTag: 3d266128-88f1-4d2d-88b4-d7867d80c734
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Late Deliveries' = CALCULATE(COUNTROWS('olist_analytics_gold fct_sales'),'olist_analytics_gold fct_sales'[Late Delivery]=TRUE())
+		formatString: 0
+		displayFolder: Delivery
+		lineageTag: b1d45577-f060-4e13-ac3f-e8967515baab
+
+	measure 'Late Delivery Rate' = DIVIDE([Late Deliveries],COUNTROWS('olist_analytics_gold fct_sales'))
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Delivery
+		lineageTag: 27471127-f84d-4ea9-bf47-2c3413049a9f
+
+	measure 'Repeat Customers' =
+			
+			COUNTROWS(
+			    FILTER(
+			        VALUES('olist_analytics_gold fct_sales'[Customer UID]),
+			        CALCULATE(
+			            DISTINCTCOUNT('olist_analytics_gold fct_sales'[Order ID])
+			        ) > 1
+			    )
+			)
+		formatString: 0
+		displayFolder: Customers
+		lineageTag: 695bb738-fb2a-423d-8d62-d4fd88660110
+
+	measure 'Total Customers' = DISTINCTCOUNT('olist_analytics_gold fct_sales'[Customer UID])
+		formatString: 0
+		displayFolder: Customers
+		lineageTag: d45eba71-8df3-4111-9b9c-d6ea41c2947f
+
+	measure 'Repeat Customer Rate' = DIVIDE([Repeat Customers],[Total Customers])
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Customers
+		lineageTag: b90396e3-c207-4a8a-9c49-8c289c9e64cc
+
+	measure 'Revenue Previous Month' = CALCULATE([Total Revenue],DATEADD('olist_analytics_gold dim_date'[date_key],-1,MONTH))
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		displayFolder: Revenue
+		lineageTag: e8bbf2f0-c96a-48d3-ba94-7f652da768ad
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Revenue MOM %' = DIVIDE([Total Revenue]-[Revenue Previous Month],[Revenue Previous Month])
+		formatString: #,0.0%;-#,0.0%;#,0.0%
+		displayFolder: Revenue
+		lineageTag: 62c60671-bc0b-4c52-92bf-fd67009c7ed1
+
+	measure 'Revenue Previous Year' = CALCULATE([Total Revenue],DATEADD('olist_analytics_gold dim_date'[date_key],-1,YEAR))
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		displayFolder: Revenue
+		lineageTag: 7f36b820-29a4-4983-afd7-7c45cf373641
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Revenue YoY %' = DIVIDE([Total Revenue]-[Revenue Previous Year] , [Revenue Previous Year])
+		formatString: #,0.0%;-#,0.0%;#,0.0%
+		displayFolder: Revenue
+		lineageTag: 8886d369-674c-442e-9d67-f218de5548fe
+
+	measure 'Orders Previous Month' = CALCULATE([Total Orders],DATEADD('olist_analytics_gold dim_date'[date_key],-1,MONTH))
+		formatString: 0
+		displayFolder: Orders
+		lineageTag: faa3b3cd-0bfe-4bae-8f77-99ed2f25408d
+
+	measure 'Orders MoM %' = DIVIDE([Total Orders]-[Orders Previous Month],[Orders Previous Month])
+		formatString: #,0.0%;-#,0.0%;#,0.0%
+		displayFolder: Orders
+		lineageTag: 2eb0acbb-7b8a-45d3-8206-3d77e27fb1f1
+
+	measure 'Order Previous Year' = CALCULATE([Total Orders],DATEADD('olist_analytics_gold dim_date'[date_key],-1,YEAR))
+		formatString: 0
+		displayFolder: Orders
+		lineageTag: f353b95e-0d67-48f3-baa6-168fe9a3f147
+
+	measure 'Orders YoY %' = DIVIDE([Total Orders]-[Order Previous Year],[Order Previous Year])
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Orders
+		lineageTag: 10a87d1b-9450-44b7-9cf0-658709b0b642
+
+	measure 'Average Freight Cost' =
+			
+			AVERAGE('olist_analytics_gold fct_sales'[Freight Value])
+		displayFolder: Delivery
+		lineageTag: 45bb7dd1-0eb0-4ce9-9fe8-cf7cca52f789
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Delivered Orders' =
+			
+			CALCULATE(
+			    DISTINCTCOUNT('olist_analytics_gold fct_sales'[Order ID]),
+			    'olist_analytics_gold fct_sales'[Order Status] = "delivered")
+		formatString: 0
+		displayFolder: Orders
+		lineageTag: d3e8ab38-0a30-48c9-8246-fc22eabfd402
+
+	measure 'Avg Review Rating' =
+			
+			AVERAGE('olist_analytics_gold fct_sales'[Average Review Score])
+		displayFolder: Reviews
+		lineageTag: 786078e1-d31d-49b0-aeb2-d8cced0a470b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Value
+		isHidden
+		formatString: 0
+		lineageTag: 17b080ae-5760-4ad6-af5b-5f205adf5742
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Measures Table' = calculated
+		mode: import
+		source = {1}
+
+	annotation PBI_Id = 3bf5d53c364e44fbb33f91b9e252881d
+

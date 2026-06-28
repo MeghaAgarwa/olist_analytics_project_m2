@@ -1,0 +1,222 @@
+table 'olist_analytics_gold fct_sales'
+	lineageTag: 8bd686eb-beae-4626-9bae-d7f8ab832210
+
+	measure 'Count Order ID' = DISTINCTCOUNT('olist_analytics_gold fct_sales'[Order ID])
+		formatString: 0
+		lineageTag: 47ae5b1b-7433-44e8-aa6f-b1eb84dbcc18
+
+	column Sales_sk
+		dataType: string
+		isHidden
+		lineageTag: aa804fe2-ac91-4a85-855c-5b34214dbdc0
+		summarizeBy: none
+		sourceColumn: Sales_sk
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order ID'
+		dataType: string
+		lineageTag: 67850558-393e-460d-a580-083df2b89f67
+		summarizeBy: none
+		sourceColumn: Order ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order Item ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3b259e25-e77d-4993-8a48-61a29a7ef1df
+		summarizeBy: count
+		sourceColumn: Order Item ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product ID'
+		dataType: string
+		lineageTag: 0f4cc6d0-ef7e-4e5e-95c1-68d8faf4fbd9
+		summarizeBy: none
+		sourceColumn: Product ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Seller ID'
+		dataType: string
+		lineageTag: 1ea13047-4eed-4492-866e-83710d52d5cc
+		summarizeBy: none
+		sourceColumn: Seller ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1492ab0e-c197-4ce0-8623-5ab76fbb3899
+		summarizeBy: none
+		sourceColumn: Order Date
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Order Status'
+		dataType: string
+		lineageTag: 9221eaba-e90c-47f1-a288-3bc7763d658d
+		summarizeBy: none
+		sourceColumn: Order Status
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Price
+		dataType: double
+		lineageTag: fdf30e8a-975b-4654-a8c0-e3839cb9de1d
+		summarizeBy: sum
+		sourceColumn: Price
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Freight Value'
+		dataType: double
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: c100661b-25e8-4a19-888e-b446d6dbe828
+		summarizeBy: sum
+		sourceColumn: Freight Value
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Gross Revenue'
+		dataType: double
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 9d7de919-cfb5-4fac-8424-4fa57a52009a
+		summarizeBy: sum
+		sourceColumn: Gross Revenue
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column total_payment_value
+		dataType: double
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 71cfb5fd-10c4-447f-9d32-d43d150c718a
+		summarizeBy: sum
+		sourceColumn: total_payment_value
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Payment Installments'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3ff403c1-8dc4-4cf2-82f9-5f3ffa2394fd
+		summarizeBy: sum
+		sourceColumn: Payment Installments
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Payment Count'
+		dataType: int64
+		formatString: 0
+		lineageTag: e963540c-7354-4e0f-975c-8efcd573bd24
+		summarizeBy: sum
+		sourceColumn: Payment Count
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Average Review Score'
+		dataType: double
+		lineageTag: a8453034-1e4c-4ce5-95e4-3a9f109d5d5d
+		summarizeBy: sum
+		sourceColumn: Average Review Score
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Review Sentiment'
+		dataType: string
+		lineageTag: a666b21d-2eba-437e-a5d3-5dfbfc3273c6
+		summarizeBy: none
+		sourceColumn: Review Sentiment
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Delivery Days'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d4f72e0-4a2d-4a00-9a09-dde7ef27d496
+		summarizeBy: sum
+		sourceColumn: Delivery Days
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Late Delivery'
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: fba778c9-4eec-4fd4-81ba-c7a7d8dc65e4
+		summarizeBy: none
+		sourceColumn: Late Delivery
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer UID'
+		dataType: string
+		lineageTag: 539f139f-1752-4814-a310-036ef1143bf5
+		summarizeBy: none
+		sourceColumn: Customer UID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'olist_analytics_gold fct_sales' = m
+		mode: import
+		source =
+				let
+				  Source = PostgreSQL.Database("localhost:5432", "olist_analytics"),
+				  #"Navigation 1" = Source{[Schema = "olist_analytics_gold", Item = "fct_sales"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(#"Navigation 1",{{"delivery_days", Int64.Type}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"product_id", "Product ID"}, {"average_review_score", "Average Review Score"}, {"delivery_days", "Delivery Days"}, {"freight_value", "Freight Value"}, {"gross_revenue", "Gross Revenue"}, {"is_late_delivery", "Late Delivery"}, {"order_date", "Order Date"}, {"order_id", "Order ID"}, {"order_item_id", "Order Item ID"}, {"order_status", "Order Status"}, {"payment_count", "Payment Count"}, {"payment_installments", "Payment Installments"}, {"price", "Price"}, {"review_sentiment", "Review Sentiment"}, {"sales_sk", "Sales_sk"}, {"seller_id", "Seller ID"}, {"customer_unique_id", "Customer UID"}})
+				in
+				  #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Exception
+

@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["olist_analytics_gold dim_date","olist_analytics_gold dim_products","olist_analytics_gold dim_sellers","olist_analytics_gold fct_sales","olist_analytics_gold dim_customers"]
+
+annotation PBI_ProTooling = ["DevMode","DaxQueryView_Desktop"]
+
+ref table 'olist_analytics_gold dim_date'
+ref table 'olist_analytics_gold dim_products'
+ref table 'olist_analytics_gold dim_sellers'
+ref table 'olist_analytics_gold fct_sales'
+ref table 'Measures Table'
+ref table 'olist_analytics_gold dim_customers'
+
+ref cultureInfo en-US
+
