@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Olist_E-commerce_Analytics_Project.SemanticModel"
+    }
+  }
+}

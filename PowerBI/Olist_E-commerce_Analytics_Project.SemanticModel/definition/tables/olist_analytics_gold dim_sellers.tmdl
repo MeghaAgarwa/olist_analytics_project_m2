@@ -1,0 +1,52 @@
+table 'olist_analytics_gold dim_sellers'
+	lineageTag: e2e74c7c-c372-4e4b-b148-89bfbaeb799b
+
+	column 'Seller ID'
+		dataType: string
+		lineageTag: 9ce9662e-4ebf-43b0-a6e6-22b834f60e31
+		summarizeBy: none
+		sourceColumn: Seller ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Seller City'
+		dataType: string
+		lineageTag: 8ccdfdf6-ce32-4369-9e31-6ba03e587d35
+		summarizeBy: none
+		sourceColumn: Seller City
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Seller State'
+		dataType: string
+		lineageTag: 22b0ca69-4381-4956-ba5f-d0c64fe8f639
+		summarizeBy: none
+		sourceColumn: Seller State
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'Seller Hierarchy'
+		lineageTag: 54b99be3-0a9e-4ab1-ad77-d97349e34b19
+
+		level 'Seller State'
+			lineageTag: 133a0ec8-4bf3-4574-8a16-7d84e43b90cf
+			column: 'Seller State'
+
+		level 'Seller City'
+			lineageTag: 76772c02-32d6-4958-9eb0-cb562ac4853f
+			column: 'Seller City'
+
+	partition 'olist_analytics_gold dim_sellers' = m
+		mode: import
+		source =
+				let
+				  Source = PostgreSQL.Database("localhost:5432", "olist_analytics"),
+				  #"Navigation 1" = Source{[Schema = "olist_analytics_gold", Item = "dim_sellers"]}[Data],
+				    #"Renamed Columns" = Table.RenameColumns(#"Navigation 1",{{"seller_state", "Seller State"}, {"seller_city", "Seller City"}, {"seller_id", "Seller ID"}})
+				in
+				  #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

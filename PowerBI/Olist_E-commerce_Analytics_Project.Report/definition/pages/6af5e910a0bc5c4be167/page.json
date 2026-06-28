@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "6af5e910a0bc5c4be167",
+  "displayName": "Customer & Operations Insights",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}

@@ -1,0 +1,16 @@
+relationship AutoDetected_5cdf25bb-2daf-4192-801a-761364ef9ad8
+	fromColumn: 'olist_analytics_gold fct_sales'.'Product ID'
+	toColumn: 'olist_analytics_gold dim_products'.'Product ID'
+
+relationship AutoDetected_b3ae3164-dc22-4aaf-8c31-80eb93b1cf8a
+	fromColumn: 'olist_analytics_gold fct_sales'.'Seller ID'
+	toColumn: 'olist_analytics_gold dim_sellers'.'Seller ID'
+
+relationship 4037724b-824a-db0f-8750-aca653eef816
+	fromColumn: 'olist_analytics_gold fct_sales'.'Order Date'
+	toColumn: 'olist_analytics_gold dim_date'.date_key
+
+relationship 52ac8c4d-24cd-6459-d010-d1abaf3a9fd5
+	fromColumn: 'olist_analytics_gold fct_sales'.'Customer UID'
+	toColumn: 'olist_analytics_gold dim_customers'.'Customer UID'
+

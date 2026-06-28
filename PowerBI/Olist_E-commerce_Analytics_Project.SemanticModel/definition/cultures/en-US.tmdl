@@ -1,0 +1,7005 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "olist_analytics_gold_dim_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist_analytics_gold dim_date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist_analytics_gold dim_date": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.date_key": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "date_key"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "moment key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "major": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "keynote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "essential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "date solution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_dim_date.date_key.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "VariationSource": "date_key",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy key": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hierarchy key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hierarchy key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_dim_date.date_key.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "VariationSource": "date_key",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year key": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date key yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "key yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment key year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period key year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_dim_date.date_key.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "VariationSource": "date_key",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter key": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date key qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "key qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "qtr key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        },
+			        {
+			          "moment key quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period key quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_dim_date.date_key.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "VariationSource": "date_key",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month key": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date key mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "key mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment key month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period key month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_dim_date.date_key.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "VariationSource": "date_key",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day key": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date key day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "key day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "moment key day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period key day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "major": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "keynote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "essential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "day solution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_dim_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_dim_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "month_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month number": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "month_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month name": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.week_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "week_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "week number": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "week_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "week no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.day_of_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "day_of_month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day of month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day_of_month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "day of mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "day_of_week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of week": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day of week": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day_of_week": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.day_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "day_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day name": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "day nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date.is_weekend": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_date",
+			          "ConceptualProperty": "is_weekend"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is weekend": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is weekend": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is_weekend": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "weekend": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "weekend": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist_analytics_gold dim_product": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist_analytics_gold dim_product": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product.product_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_products",
+			          "ConceptualProperty": "Product ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product id": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "merchandise id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "produce id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product.product_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_products",
+			          "ConceptualProperty": "Product Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product category": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_category": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product.product_weight_g": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_products",
+			          "ConceptualProperty": "Product Weight (g)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product weight g": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product weight g": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_weight_g": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "g": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "g": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "weight g": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "weight g": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact weight g": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "item weight g": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "merchandise weight g": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "produce weight g": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product.product_length_cm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_products",
+			          "ConceptualProperty": "Product length (cm)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product length cm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product length cm": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_length_cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "length cm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "length cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact length cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "item length cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "merchandise length cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "produce length cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product.product_height_cm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_products",
+			          "ConceptualProperty": "Product Height (cm)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product height cm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product height cm": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_height_cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "height cm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "height cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact height cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "item height cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "merchandise height cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "produce height cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product.product_width_cm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_products",
+			          "ConceptualProperty": "Product Width (cm)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product width cm": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product width cm": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_width_cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "width cm": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "width cm": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact width cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "item width cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "merchandise width cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "produce width cm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_sellers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist_analytics_gold dim_seller": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist_analytics_gold dim_seller": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller.seller_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_sellers",
+			          "ConceptualProperty": "Seller ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seller id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller id": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "seller": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "seller": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "seller identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "vender": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "vendor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "retailer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "wholesaler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "supplier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller.seller_city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_sellers",
+			          "ConceptualProperty": "Seller City"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seller city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller city": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller_city": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "city": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "city": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "seller location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "seller town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "seller metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller.seller_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold dim_sellers",
+			          "ConceptualProperty": "Seller State"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seller state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller state": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller_state": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "state": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "state": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "seller location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "seller condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "seller country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olist_analytics_gold fct_sale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "olist_analytics_gold fct_sale": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.sales_sk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Sales_sk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales sk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales sk": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale sk": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "sales_sk": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sk": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sk": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.order_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Order ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order id": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.order_item_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Order Item ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order item id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order item id": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_item_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "item": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order item": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order item": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "item id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "item id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order item identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "order item identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "order item identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "order product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "item identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "item identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "item identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order item credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.product_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Product ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "product id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product id": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "merchandise id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "produce id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.seller_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Seller ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "seller id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller id": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "seller_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "seller": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "seller": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "seller identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "seller credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "vender": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "vendor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "retailer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "wholesaler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "supplier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.order_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Order Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "order moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_fct_sale.order_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_fct_sale.order_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "order yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "order moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_fct_sale.order_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "order qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "order moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_fct_sale.order_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "order mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "order moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_fct_sale.order_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "olist_analytics_gold_fct_sale.order_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Order Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order status": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "order condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "order class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "order grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "penalty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "punishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.freight_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Freight Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "freight value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "freight value": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "freight_value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "freight assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freight worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "freight price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "freight cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "freight charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "freight rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.gross_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Gross Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gross revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gross revenue": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gross_revenue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gross income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "gross profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gross turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gross yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "aggregate revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "overall revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.total_payment_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "total_payment_value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total payment value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total payment value": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_payment_value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment value": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate payment value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall payment value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total payment assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "payment assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total payment worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total payment price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total payment cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total payment charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total payment rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.payment_installment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Payment Installments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment installment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment installment": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_installments": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "installment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "installment": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment repayment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "repayment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payment portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.payment_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Payment Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment count": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "payment amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.average_review_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Average Review Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average review score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average review score": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average_review_score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average review notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average review slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average review groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average review nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average review cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average review mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "review notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.review_sentiment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Review Sentiment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "review sentiment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review sentiment": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review_sentiment": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sentiment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sentiment": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review sentimentality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "review mawkishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "review soppiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "review romanticism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sentimentality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mawkishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "soppiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "romanticism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "review gush": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review corn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.delivery_day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Delivery Days"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivery day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delivery day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delivery_days": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale.is_late_delivery": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "olist_analytics_gold fct_sales",
+			          "ConceptualProperty": "Late Delivery"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is late delivery": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is late delivery": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is_late_delivery": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "is late distribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "is late conveyance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "is late carriage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "is late transfer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is late transport": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is late sending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is late provision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is late supply": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is late liberation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "is late relief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "olist_analytics_gold_dim_seller_seller_id_sell_olist_analytics_gold_dim_seller": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_sellers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_seller.seller_id": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller.seller_id"
+			          }
+			        },
+			        "olist_analytics_gold_dim_seller": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller.seller_id"
+			            },
+			            "Verbs": [
+			              {
+			                "sell": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "seller_ids_sell_olist_analytics_gold_dim_sellers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller.seller_id"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "seller_ids_have_olist_analytics_gold_dim_sellers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller.seller_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_sellers_have_seller_ids"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller_sell_olist_analytics_gold_fct_sale": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_seller": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller"
+			          },
+			          "Nouns": [
+			            {
+			              "seller": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        },
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            },
+			            "Verbs": [
+			              {
+			                "sell": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "olist_analytics_gold_dim_sellers_sell_olist_analytics_gold_fct_sales"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_olist_analytics_gold_dim_sellers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_sellers_have_olist_analytics_gold_fct_sales"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_is_weekend": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.is_weekend": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.is_weekend"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "olist_analytics_gold_dim_date.is_weekend"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Adjectives": [
+			              {
+			                "weekend": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_olist_analytics_gold_dim_dates_are_weekend_olist_analytics_gold_dim_dates"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.price": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "olist_analytics_gold_fct_sale.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_olist_analytics_gold_fct_sales_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_prices"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_is_ordered_on_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "olist_analytics_gold_fct_sale.order_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "order": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "olist_analytics_gold_fct_sales_are_ordered_on_order_dates"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller_in_seller_city": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_sellers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_seller": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller"
+			          }
+			        },
+			        "olist_analytics_gold_dim_seller.seller_city": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller.seller_city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "olist_analytics_gold_dim_seller.seller_city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller.seller_city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_sellers_are_in_seller_cities"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller_in_seller_state": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_sellers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_seller": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller"
+			          }
+			        },
+			        "olist_analytics_gold_dim_seller.seller_state": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller.seller_state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "olist_analytics_gold_dim_seller.seller_state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller.seller_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_sellers_are_in_seller_states"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_date_key": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.date_key": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.date_key"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_date_keys"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.year": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_years"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.quarter": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_quarters"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_month_number": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.month_number": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.month_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.month_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_month_numbers"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.month_name": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_month_names"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_week_number": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.week_number": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.week_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.week_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_week_numbers"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_day_of_month": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.day_of_month": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.day_of_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.day_of_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_day_of_month"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_day_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.day_of_week": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.day_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.day_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_day_of_week"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_day_name": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.day_name": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.day_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.day_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_day_names"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_has_is_weekend": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.is_weekend": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.is_weekend"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.is_weekend"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_dates_have_is_weekends"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product_has_product_id": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_product": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product"
+			          }
+			        },
+			        "olist_analytics_gold_dim_product.product_id": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product.product_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_product.product_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_products_have_product_ids"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product_has_product_category": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_product": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product"
+			          }
+			        },
+			        "olist_analytics_gold_dim_product.product_category": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product.product_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_product.product_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_products_have_product_categories"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product_has_product_weight_g": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_product": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product"
+			          }
+			        },
+			        "olist_analytics_gold_dim_product.product_weight_g": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product.product_weight_g"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_product.product_weight_g"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_products_have_product_weight_g"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product_has_product_length_cm": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_product": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product"
+			          }
+			        },
+			        "olist_analytics_gold_dim_product.product_length_cm": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product.product_length_cm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_product.product_length_cm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_products_have_product_length_cm"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product_has_product_height_cm": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_product": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product"
+			          }
+			        },
+			        "olist_analytics_gold_dim_product.product_height_cm": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product.product_height_cm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_product.product_height_cm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_products_have_product_height_cm"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_product_has_product_width_cm": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_product": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product"
+			          }
+			        },
+			        "olist_analytics_gold_dim_product.product_width_cm": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product.product_width_cm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_product.product_width_cm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_products_have_product_width_cm"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller_has_seller_city": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_sellers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_seller": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller"
+			          }
+			        },
+			        "olist_analytics_gold_dim_seller.seller_city": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller.seller_city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller.seller_city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_sellers_have_seller_cities"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_seller_has_seller_state": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_sellers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_seller": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller"
+			          }
+			        },
+			        "olist_analytics_gold_dim_seller.seller_state": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_seller.seller_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_seller"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_seller.seller_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_sellers_have_seller_states"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_sales_sk": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.sales_sk": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.sales_sk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.sales_sk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_sales_sk"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_order_id": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_id": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_order_ids"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_order_item_id": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_item_id": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_item_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_item_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_order_item_ids"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_order_dates"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_order_status": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_status": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_order_statuses"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_freight_value": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.freight_value": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.freight_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.freight_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_freight_values"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_gross_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.gross_revenue": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.gross_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.gross_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_gross_revenues"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_total_payment_value": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.total_payment_value": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.total_payment_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.total_payment_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_total_payment_values"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_payment_installment": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.payment_installment": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.payment_installment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.payment_installment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_payment_installments"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_payment_count": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.payment_count": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.payment_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.payment_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_payment_counts"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_average_review_score": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.average_review_score": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.average_review_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.average_review_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_average_review_scores"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_review_sentiment": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.review_sentiment": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.review_sentiment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.review_sentiment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_review_sentiments"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_delivery_day": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.delivery_day": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.delivery_day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.delivery_day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_delivery_days"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_is_late_delivery": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.is_late_delivery": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.is_late_delivery"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.is_late_delivery"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_is_late_deliveries"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_olist_analytics_gold_dim_customer": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_dim_customer": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_customer"
+			          },
+			          "Nouns": [
+			            {
+			              "customer": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_olist_analytics_gold_dim_customers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_customer"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_customers_have_olist_analytics_gold_fct_sales"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_has_olist_analytics_gold_dim_product": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale"
+			          }
+			        },
+			        "olist_analytics_gold_dim_product": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_product"
+			          },
+			          "Nouns": [
+			            {
+			              "product": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_fct_sales_have_olist_analytics_gold_dim_products"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_product"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "olist_analytics_gold_dim_products_have_olist_analytics_gold_fct_sales"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_date_key_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date.date_key": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.date_key.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date.date_key"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_keys_have_date_hierarchy_keys"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_date_key_date_hierarchy_has_olist_analytics_gold_dim_date_date_key_year": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date.date_key.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.date_key.year": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_keys_have_year_keys"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_date_key_date_hierarchy_has_olist_analytics_gold_dim_date_date_key_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date.date_key.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.date_key.quarter": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_keys_have_quarter_keys"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_date_key_date_hierarchy_has_olist_analytics_gold_dim_date_date_key_month": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date.date_key.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.date_key.month": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_keys_have_month_keys"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_dim_date_date_key_date_hierarchy_has_olist_analytics_gold_dim_date_date_key_day": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold dim_date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_dim_date.date_key.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_dim_date.date_key.day": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_dim_date.date_key.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_dim_date.date_key.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_keys_have_day_keys"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_order_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale.order_date": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_dates_have_order_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_order_date_date_hierarchy_has_olist_analytics_gold_fct_sale_order_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_date.year": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_years"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_order_date_date_hierarchy_has_olist_analytics_gold_fct_sale_order_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_date.quarter": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_quarters"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_order_date_date_hierarchy_has_olist_analytics_gold_fct_sale_order_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_date.month": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_months"
+			        }
+			      ]
+			    },
+			    "olist_analytics_gold_fct_sale_order_date_date_hierarchy_has_olist_analytics_gold_fct_sale_order_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "olist_analytics_gold fct_sales"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "olist_analytics_gold_fct_sale.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			          }
+			        },
+			        "olist_analytics_gold_fct_sale.order_date.day": {
+			          "Target": {
+			            "Entity": "olist_analytics_gold_fct_sale.order_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "olist_analytics_gold_fct_sale.order_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

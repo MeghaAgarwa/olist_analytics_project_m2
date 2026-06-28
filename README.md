@@ -65,7 +65,16 @@ This project builds an analytics-ready reporting layer on top of the Olist e-com
 
 ---
 # Semantic Model
-See docs/semantic_model.md for semantic layer definitions and metric governance.
+
+The semantic layer is implemented in the Power BI Semantic Model and provides:
+- Star schema data model
+- DAX business measures
+- Time intelligence calculations
+- Centralized metric definitions
+
+See:
+- `docs/semantic_model.md`
+for semantic layer definitions and metric governance.
 
 # Dashboard Walkthrough
 
@@ -84,20 +93,19 @@ Purpose: Provide leadership with a high-level view of business performance and f
   * Revenue MoM %
   * Orders MoM %
   * Repeat Customer Rate
-  * Late Delivery Rate
 
 * Monthly Revenue Trend & Forecast
-
 * Top 10 Product Categories by Revenue
-
 * Top 10 Customer States by Revenue
+* Order Volume Trend
 
 ### Key Insights
 
 * Revenue demonstrates consistent growth across the reporting period.
-* Revenue is concentrated within a small number of product categories.
 * São Paulo is the largest revenue-generating state.
-* Forecast indicates stable short-term business performance.
+* Forecast suggests stable business performance in next 6 months.
+* Health & Beauty, Watches & Gifts, and Bed Bath Table are the highest revenue-generating product categories.
+* There is a noticeable jump around October–November 2017, where orders increase much faster than in previous months.
 
 ---
 
@@ -111,25 +119,23 @@ Purpose: Support operational analysis and customer behavior investigation.
 
   * Total Customers
   * Total Orders
-  * Repeat Customers
-  * Repeat Customer Rate
-  * Average Order Value
+  * Total Delivered Orders
+  * Average Review Rating
   * Late Delivery Rate
 
-* Revenue by Customer State
-
+* Monthly Orders Trend
+* Average Review Rating by Late Delivery
+* Late Delivery by Customer State
 * Average Delivery Days by State
-
 * Average Freight Cost by State
 
-* Orders by Payment Installments
 
 ### Key Insights
 
 * Customer retention is relatively low, with most customers making a single purchase.
 * Delivery performance varies significantly across states.
 * Freight costs differ by region and may contribute to operational inefficiencies.
-* Customers primarily use low installment payment plans.
+* On-time deliveries are generally associated with higher customer review ratings
 
 ---
 
@@ -146,16 +152,15 @@ Purpose: Support operational analysis and customer behavior investigation.
 # Known Data Limitations & Risks
 
 * Dataset covers approximately September 2016 through September 2018 and does not represent current business performance.
-* Customer Lifetime Value (CLV) was not implemented due to limited customer history.
 * Some months contain incomplete data, which may affect trend interpretation.
 * Freight cost analysis identifies correlations but does not establish causation.
 * Customer demographic information is unavailable.
-* Product profitability cannot be calculated due to missing cost data.
 * Year-over-Year (YoY) comparisons were evaluated but not prominently used in dashboards because the dataset contains only two years of history and 2016 includes a partial year. This can produce misleading growth percentages and reduce interpretability.
+* The dataset allows decomposition of delivery time into Seller-to-Carrier and Carrier-to-Customer stages. However, due to the absence of actual shipment timestamps, the analysis can identify where time is spent but cannot definitively assign responsibility for delays.
 
 # Stretch Goals Coverage
 
 ✅ Time comparison: Revenue MoM %, Orders MoM %
 ✅ Derived metric: Repeat Customer Rate
 ✅ Forecast: Monthly Revenue Forecast
-✅ Anomaly identification: Revenue trend analysis highlighting significant spikes and seasonal fluctuations
+✅ Anomaly identification: There are months (September 2016, December 2016, and September 2018) where order count is significantly low as compared to others, pointing towards incomplete or missing data.

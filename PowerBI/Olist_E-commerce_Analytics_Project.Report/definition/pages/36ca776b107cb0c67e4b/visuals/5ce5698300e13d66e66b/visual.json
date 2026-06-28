@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "5ce5698300e13d66e66b",
+  "position": {
+    "x": 23.217665615141957,
+    "y": 29.274447949526813,
+    "z": 8000,
+    "height": 58.548895899053626,
+    "width": 384.60567823343848,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Executive Sales Overview",
+                    "textStyle": {
+                      "fontFamily": "Arial Black",
+                      "fontSize": "18pt",
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
